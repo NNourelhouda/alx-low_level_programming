@@ -14,13 +14,14 @@ int main(void)
         i++;
     }
 
-char j = 'a';
+char x = 'a';
 
-    while ( j <= 'f') {
-        putchar(j);
-        j++;
+    while ( x <= 'f') {
+        putchar(x);
+        x++;
     }
-
+    {
     putchar('\n');
     return 0;
+    }
 }
