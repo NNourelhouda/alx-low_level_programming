@@ -6,21 +6,17 @@
  * Return: Always 0 (Success)
  */
 
-int main()
-{
-    int x, y;
-for (x = 0; x < 10; x++){
-for (y = 0; y < 10;y++)
-            {
-                while (y!=x);
-            putchar(x);
-            putchar(y);
+int main() {
+    int i, j;
+    for (i = 0; i < 9; i++) {
+        for (j = i + 1; j <= 9; j++) {
+            putchar('0' + i);
+            putchar('0' + j);
+            if (i < 8 || j < 9) {
+                putchar(',');
+                putchar(' ');
+            }
         }
-}
-        {
-            putchar(',');
-            putchar(' ');
-        }
-    putchar("\n");
+    }
     return 0;
 }
