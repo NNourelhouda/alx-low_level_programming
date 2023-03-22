@@ -1,18 +1,14 @@
 #include <stdio.h>
 #include "main.h"
+#include "1-alphabet.c"
 
-void print_alphabet_x10(void)
+void print_alphabet_x10()
 {
-int y;
-for (y = 0 ; y <= 10 ; y++);
+int y = 0;
+while ( y < 10)
 {
-char i = 'a';
-while (i<='z')
-{
-_putchar(i);
-i++;
-}
+    print_alphabet();
+    y++;
 }
 _putchar('\n');
 }
-return;
