@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- * main - entry point
  * function print_alphabet
  * Return: Always 0 (successful)
  */
@@ -14,7 +13,9 @@ _putchar( i );
 i++;
 }
 _putchar('\n');
+return;
 }
+
 int main(){
 print_alphabet();
 return 0;
