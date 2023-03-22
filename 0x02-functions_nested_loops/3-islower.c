@@ -3,15 +3,18 @@
 #include "main.h"
 
 /**
- * function _islower
- * Return: Always 0 (successful)
+ *
+ *_islower - checks if a character is lowercase
+ *@c: the character to check
+ *Return: 1 if c is lowercase, 0 otherwise
+ *
  */
 
 int _islower(int c)
 {
 if (islower(c))
 {
-return 1;
+return (1);
 }
-return 0;
+return (0);
 }
