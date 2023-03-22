@@ -6,16 +6,16 @@
  */
 
 void print_alphabet(void){
-char i = 'a';
-while (i<='z'){
-_putchar( i );
-i++;
-}
-_putchar('\n');
+    char i = 'a';
+    while (i<='z'){
+        putchar( i );
+        i++;
+    }
+    putchar('\n');
 return;
 }
 
 int main(){
-print_alphabet();
+    print_alphabet();
 return 0;
 }
