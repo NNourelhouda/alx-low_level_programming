@@ -12,6 +12,5 @@ else if (i <= 0)
 {
 return (-i);
 }
-default:
 return 0;
 }
