@@ -10,5 +10,3 @@ while ( y < 10)
     print_alphabet();
     y++;
 }
-_putchar('\n');
-}
