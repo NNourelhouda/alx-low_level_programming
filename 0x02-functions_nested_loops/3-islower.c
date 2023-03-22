@@ -3,7 +3,7 @@
 #include "main.h"
 
 /*
- *The _islower() function checks whether a character is lowercase alphabet (a-z) or not.
+ *_islower function checks whether a character is lowercase
  *
  */
 
