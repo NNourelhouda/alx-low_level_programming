@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <main.h>
 /**
  * function print_alphabet
  * Return: Always 0 (successful)
@@ -8,14 +8,9 @@
 void print_alphabet(void){
     char i = 'a';
     while (i<='z'){
-        putchar( i );
+       _putchar( i );
         i++;
     }
-    putchar('\n');
+    _putchar('\n');
 return;
-}
-
-int main(){
-    print_alphabet();
-return 0;
 }
