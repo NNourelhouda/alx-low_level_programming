@@ -5,12 +5,14 @@
  * Return: Always 0 (successful)
  */
 
-void print_alphabet(void){
-    char i = 'a';
-    while (i<='z'){
-       _putchar( i );
-        i++;
-    }
-    _putchar('\n');
+void print_alphabet(void)
+{
+char i = 'a';
+while (i <= 'z')
+{
+_putchar(i);
+i++;
+}
+_putchar('\n');
 return;
 }
