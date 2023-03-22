@@ -4,14 +4,13 @@
 
 int _abs(int i)
 {
-int i;
 if (i > 0)
 {
-putchar('i');
+putchar("i");
 }
 else if (i <= 0)
 {
-putchar('i');
+putchar("i");
 }
 return (0);
 }
