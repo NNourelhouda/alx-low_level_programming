@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 
-int add(int, int)
+int add(int x,int y)
 {
-int x,y,result;
-result = x + y;
-return (result);
+int n;
+n = x + y;
+return (n);
 }
