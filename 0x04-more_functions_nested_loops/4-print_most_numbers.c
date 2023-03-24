@@ -12,10 +12,13 @@
 void print_most_numbers(void)
 {
 int i;
-for (i = 0; i < 10; i != 2; i != 4; i++)
+for (i = 0; i < 10; i++)
 {
-putchar(i + '0');
+if (i == 2 || i == 4)
+{
+continue;
 }
-putchar('\n');
-return ;
+_putchar(i + '0');
+}
+_putchar('\n');
 }
