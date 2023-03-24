@@ -20,7 +20,7 @@ for (int i = 0; i < n; i++)
 {
 _putchar('_');
 }
-putchar('\n');
+_putchar('\n');
 }
 return (0);
 }
