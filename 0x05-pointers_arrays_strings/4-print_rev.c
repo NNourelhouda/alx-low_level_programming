@@ -14,8 +14,8 @@ while (s[len] != '\0')
 {
 len++;
 }
-int i = len - 1;
-for (i >= 0;i--);
+int i;
+for (i = len -1; i >= 0;i--);
 putchar(s[i]);
 putchar('\n');
 }
