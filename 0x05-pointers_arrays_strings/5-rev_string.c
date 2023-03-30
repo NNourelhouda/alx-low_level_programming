@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 #include <string.h>
+
+/**
+ * _strlen - returns the length of a string
+ * @s: the string to get the length of
+ *
+ * Return: the length of the string
+ */
+/**
+ * rev_string - reverses a string
+ * @s: the string to reverse
+ */
 int _strlen(char *s)
 {
 int i = 0;
