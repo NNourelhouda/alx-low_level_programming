@@ -39,7 +39,7 @@ if (high < low)
 return (-1);
 }
 mid = (low + high) / 2;
-sqr = mid * mid;
+sqr = mid *mid;
 if (sqr == n)
 {
 return (mid);
