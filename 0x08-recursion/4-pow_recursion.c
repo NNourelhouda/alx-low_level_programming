@@ -22,3 +22,5 @@ if (y == 1)
 {
 return (x);
 }
+return(_pow_recursion(x, y - 1) * x);
+}
