@@ -11,7 +11,8 @@
 char *create_array(unsigned int size, char c)
 {
 unsigned int i;
-char *array;
+char* array = NULL;
+array = create_array(size, 'H');
 if (size == 0)
 {
 return (NULL);
